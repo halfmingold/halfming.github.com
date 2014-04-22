@@ -5,12 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>在路上</title>
+  <title>Basics - 在路上</title>
   <meta name="author" content="halfming">
 
   
-  <meta name="description" content="静态博客系统octopress octoppress基于jekyll官网 &lt;octtoppress.org> 1.安装 首先安装git和ruby 推荐用rvm安装
-随便找个文件夹 git clone git://github.com/imathis/octopress.git &hellip;">
+  <meta name="description" content="Basics Apr 22nd, 2014 Apr 22nd, 2014 Tweet Recent Posts Octopress GitHub Repos Status updating... @halfming on GitHub $(document).ready(function(){ &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://halfming.github.com">
+  <link rel="canonical" href="http://halfming.github.com/neetwork/basics">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="在路上" type="application/atom+xml">
@@ -66,19 +65,33 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article role="article">
   
-  
-  
-    <article>
-      
   <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/04/22/octopress/">Octopress</a></h1>
-    
-    
+    <h1 class="entry-title">Basics</h1>
+    <p class="meta">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-22T10:51:00+08:00" pubdate data-updated="true">Apr 22<span>nd</span>, 2014</time></p>
+  </header>
+  
+  
+
+  
+    <footer>
       <p class="meta">
         
+        
 
 
 
@@ -90,105 +103,25 @@
   
 
 
-<time datetime="2014-04-22T10:43:49+08:00" pubdate data-updated="true">Apr 22<span>nd</span>, 2014</time>
+<time datetime="2014-04-22T10:51:00+08:00" pubdate data-updated="true">Apr 22<span>nd</span>, 2014</time>
         
       </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h1>静态博客系统octopress</h1>
-
-<p>octoppress基于jekyll官网 &lt;octtoppress.org></p>
-
-<h2>1.安装</h2>
-
-<p>首先安装git和ruby 推荐用rvm安装
-随便找个文件夹</p>
-
-<pre><code>git clone git://github.com/imathis/octopress.git octopress
-cd octoppress
-bundle install #安装依赖包
-rake install #安装默认主题
-rake preview #运行，127.0.0.1:4000 查看结果
-</code></pre>
-
-<p>ps：如果你发现运行rake命令时出现</p>
-
-<pre><code>You have already activated rake 0.9.6, but your Gemfile requires rake 0.9.2.2. Prepending `bundle exec` to your command may solve this.
-</code></pre>
-
-<p>类似的信息请</p>
-
-<pre><code>bundle exec rake xxx
-</code></pre>
-
-<h2>2.基本用法</h2>
-
-<p>创建一个post</p>
-
-<pre><code>$ bundle exec rake new_post["octopress"]
-mkdir -p source/_posts
-Creating new post: source/_posts/2014-04-22-octopress.markdown
-$ cat source/_posts/2014-04-22-octopress.markdown 
----
-layout: post  #类型
-title: "octopress"  标题
-date: 2014-04-22 10:43:49 +0800
-comments: true
-categories: #分类 多个分类用［］包含
----
-</code></pre>
-
-<p>创建一个page</p>
-
-<pre><code>halfming@halfming-X45VD:~/git/octopress$ bundle exec rake new_page[neetwork]
-mkdir -p source/neetwork
-Creating new page: source/neetwork/index.markdown
-halfming@halfming-X45VD:~/git/octopress$ bundle exec rake new_page[neetwork/basics]
-mkdir -p source/neetwork/basics
-Creating new page: source/neetwork/basics/index.markdown
-halfming@halfming-X45VD:~/git/octopress$ bundle exec rake new_page[neetwork/basics.html]
-mkdir -p source/neetwork
-Creating new page: source/neetwork/basics.html
-halfming@halfming-X45VD:~/git/octopress$ cat source/neetwork/index.markdown 
----
-layout: page
-title: "neetwork"
-date: 2014-04-22 10:50
-comments: true
-sharing: true
-footer: true
----
-</code></pre>
-
-<p>其他</p>
-
-<pre><code>rake generate   #生成页面到public文件夹
-rake watch      # 查看source和sass文件夹变动
-rake preview    # 本地开启web http://localhost:4000
-</code></pre>
-
-<p>3.配置</p>
-
-<pre><code>_config.yml       # 主配置文件 (Jekyll's settings)
-Rakefile          # Configs for deployment
-config.rb         # Compass 配置
-config.ru         # Rack 配置
-</code></pre>
+      
+        <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://halfming.github.com/neetwork/basics/index.html" data-via="" data-counturl="http://halfming.github.com/neetwork/basics/index.html" >Tweet</a>
+  
+  
+  
 </div>
-  
-  
 
-
-    </article>
+      
+    </footer>
   
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
+</article>
+
 </div>
+
 <aside class="sidebar">
   
     <section>
@@ -205,7 +138,7 @@ config.ru         # Rack 配置
 <section>
   <h1>GitHub Repos</h1>
   <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
+    <li class="loading">Status updating...</li>
   </ul>
   
   <a href="https://github.com/halfming">@halfming</a> on GitHub
@@ -237,6 +170,7 @@ config.ru         # Rack 配置
 
   
 </aside>
+
 
     </div>
   </div>

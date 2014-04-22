@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[在路上]]></title>
+  <link href="http://halfming.github.com/atom.xml" rel="self"/>
+  <link href="http://halfming.github.com/"/>
+  <updated>2014-04-22T11:25:16+08:00</updated>
+  <id>http://halfming.github.com/</id>
+  <author>
+    <name><![CDATA[halfming]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress]]></title>
+    <link href="http://halfming.github.com/blog/2014/04/22/octopress/"/>
+    <updated>2014-04-22T10:43:49+08:00</updated>
+    <id>http://halfming.github.com/blog/2014/04/22/octopress</id>
+    <content type="html"><![CDATA[<h1>静态博客系统octopress</h1>
+
+<p>octoppress基于jekyll官网 &lt;octtoppress.org></p>
+
+<h2>1.安装</h2>
+
+<p>首先安装git和ruby 推荐用rvm安装
+随便找个文件夹</p>
+
+<pre><code>git clone git://github.com/imathis/octopress.git octopress
+cd octoppress
+bundle install #安装依赖包
+rake install #安装默认主题
+rake preview #运行，127.0.0.1:4000 查看结果
+</code></pre>
+
+<p>ps：如果你发现运行rake命令时出现</p>
+
+<pre><code>You have already activated rake 0.9.6, but your Gemfile requires rake 0.9.2.2. Prepending `bundle exec` to your command may solve this.
+</code></pre>
+
+<p>类似的信息请</p>
+
+<pre><code>bundle exec rake xxx
+</code></pre>
+
+<h2>2.基本用法</h2>
+
+<p>创建一个post</p>
+
+<pre><code>$ bundle exec rake new_post["octopress"]
+mkdir -p source/_posts
+Creating new post: source/_posts/2014-04-22-octopress.markdown
+$ cat source/_posts/2014-04-22-octopress.markdown 
+---
+layout: post  #类型
+title: "octopress"  标题
+date: 2014-04-22 10:43:49 +0800
+comments: true
+categories: #分类 多个分类用［］包含
+---
+</code></pre>
+
+<p>创建一个page</p>
+
+<pre><code>halfming@halfming-X45VD:~/git/octopress$ bundle exec rake new_page[neetwork]
+mkdir -p source/neetwork
+Creating new page: source/neetwork/index.markdown
+halfming@halfming-X45VD:~/git/octopress$ bundle exec rake new_page[neetwork/basics]
+mkdir -p source/neetwork/basics
+Creating new page: source/neetwork/basics/index.markdown
+halfming@halfming-X45VD:~/git/octopress$ bundle exec rake new_page[neetwork/basics.html]
+mkdir -p source/neetwork
+Creating new page: source/neetwork/basics.html
+halfming@halfming-X45VD:~/git/octopress$ cat source/neetwork/index.markdown 
+---
+layout: page
+title: "neetwork"
+date: 2014-04-22 10:50
+comments: true
+sharing: true
+footer: true
+---
+</code></pre>
+
+<p>其他</p>
+
+<pre><code>rake generate   #生成页面到public文件夹
+rake watch      # 查看source和sass文件夹变动
+rake preview    # 本地开启web http://localhost:4000
+</code></pre>
+
+<p>3.配置</p>
+
+<pre><code>_config.yml       # 主配置文件 (Jekyll's settings)
+Rakefile          # Configs for deployment
+config.rb         # Compass 配置
+config.ru         # Rack 配置
+</code></pre>
+]]></content>
+  </entry>
+  
+</feed>
