@@ -1,31 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://halfming.github.com/blog/2014/04/22/octopress/</loc>
+        <loc>http://halfming.github.io/blog/2014/04/22/octopress/</loc>
         <lastmod>2014-04-22T11:24:59+08:00</lastmod>
     </url>
     <url>
-        <loc>http://halfming.github.com/robots.txt</loc>
+        <loc>http://halfming.github.io/blog/2014/04/22/octopress-advance/</loc>
+        <lastmod>2014-04-22T13:16:02+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://halfming.github.io/robots.txt</loc>
         <lastmod>2014-04-22T10:11:20+08:00</lastmod>
     </url>
     <url>
-        <loc>http://halfming.github.com/neetwork/</loc>
+        <loc>http://halfming.github.io/neetwork/</loc>
         <lastmod>2014-04-22T10:50:49+08:00</lastmod>
     </url>
     <url>
-        <loc>http://halfming.github.com/neetwork/basics/</loc>
+        <loc>http://halfming.github.io/neetwork/basics/</loc>
         <lastmod>2014-04-22T10:51:41+08:00</lastmod>
     </url>
     <url>
-        <loc>http://halfming.github.com/neetwork/basics.html</loc>
+        <loc>http://halfming.github.io/neetwork/basics.html</loc>
         <lastmod>2014-04-22T10:52:02+08:00</lastmod>
     </url>
     <url>
-        <loc>http://halfming.github.com/blog/archives/</loc>
-        <lastmod>2014-04-22T11:24:59+08:00</lastmod>
+        <loc>http://halfming.github.io/blog/archives/</loc>
+        <lastmod>2014-04-22T13:16:02+08:00</lastmod>
     </url>
     <url>
-        <loc>http://halfming.github.com/</loc>
-        <lastmod>2014-04-22T11:24:59+08:00</lastmod>
+        <loc>http://halfming.github.io/</loc>
+        <lastmod>2014-04-22T13:16:02+08:00</lastmod>
     </url>
 </urlset>

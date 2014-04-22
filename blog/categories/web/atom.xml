@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Web | 在路上]]></title>
-  <link href="http://halfming.github.com/blog/categories/web/atom.xml" rel="self"/>
-  <link href="http://halfming.github.com/"/>
-  <updated>2014-04-22T11:25:16+08:00</updated>
-  <id>http://halfming.github.com/</id>
+  <link href="http://halfming.github.io/blog/categories/web/atom.xml" rel="self"/>
+  <link href="http://halfming.github.io/"/>
+  <updated>2014-04-22T13:16:03+08:00</updated>
+  <id>http://halfming.github.io/</id>
   <author>
     <name><![CDATA[halfming]]></name>
     
@@ -14,10 +14,107 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Octopress-advance]]></title>
+    <link href="http://halfming.github.io/blog/2014/04/22/octopress-advance/"/>
+    <updated>2014-04-22T12:50:28+08:00</updated>
+    <id>http://halfming.github.io/blog/2014/04/22/octopress-advance</id>
+    <content type="html"><![CDATA[<h1>octopress进阶</h1>
+
+<h2>在github上用octopress建立博客</h2>
+
+<p>其实就一个命令</p>
+
+<pre><code>rake setup_github_pages
+</code></pre>
+
+<p>他会询问你的git库地址，所以你要先建立一个名为<code>username</code>github.com的库名，注意username是你github的名字。。。
+你可能还需要</p>
+
+<pre><code>git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+</code></pre>
+
+<p>还需要上传你的公钥
+前提是你要懂一些git</p>
+
+<p>当然还没完 执行rake deploy会建立_deploy的目录，这个目录会和你的github同步</p>
+
+<h2>code高亮</h2>
+
+<p>``` ruby
+class Fixnum</p>
+
+<pre><code>def prime?
+    ('1' * self)
+end
+</code></pre>
+
+<p>end
+```
+源代码</p>
+
+<pre><code>``` ruby
+class Fixnum
+    def prime?
+        ('1' * self)
+    end
+end
+```
+</code></pre>
+
+<p>``` ruby Discover if a number is prime
+class Fixnum
+  def prime?</p>
+
+<pre><code>('1' * self) !~ /^1?$|^(11+?)\1+$/
+</code></pre>
+
+<p>  end
+end
+```
+源代码</p>
+
+<pre><code>``` ruby Discover if a number is prime 
+class Fixnum
+    def prime?
+        ('1' * self) !~ /^1?$|^(11+?)\1+$/
+    end
+end
+```
+</code></pre>
+
+<p>插入视频mp4</p>
+
+<pre><code>{% video url/to/video [width height] [url/to/poster] %}
+</code></pre>
+
+<p>图片</p>
+
+<pre><code>{% img [class names] /path/to/image [width] [height] [title text [alt text]] %}
+</code></pre>
+
+<p>examples</p>
+
+<pre><code>{% img http://placekitten.com/890/280 %}
+{% img left http://placekitten.com/320/250 Place Kitten #2 %}
+{% img right http://placekitten.com/300/500 150 250 Place Kitten #3 %}
+{% img right http://placekitten.com/300/500 150 250 'Place Kitten #4' 'An image of a very cute kitten' %}
+</code></pre>
+
+<p>引用</p>
+
+<pre><code>{% blockquote [author[, source]] [link] [source_link_title] %}
+Quote string
+{% endblockquote %}
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Octopress]]></title>
-    <link href="http://halfming.github.com/blog/2014/04/22/octopress/"/>
+    <link href="http://halfming.github.io/blog/2014/04/22/octopress/"/>
     <updated>2014-04-22T10:43:49+08:00</updated>
-    <id>http://halfming.github.com/blog/2014/04/22/octopress</id>
+    <id>http://halfming.github.io/blog/2014/04/22/octopress</id>
     <content type="html"><![CDATA[<h1>静态博客系统octopress</h1>
 
 <p>octoppress基于jekyll官网 &lt;octtoppress.org></p>

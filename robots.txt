@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://halfming.github.com/sitemap.xml 
+Sitemap: http://halfming.github.io/sitemap.xml 
