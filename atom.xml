@@ -4,7 +4,7 @@
   <title><![CDATA[在路上]]></title>
   <link href="http://halfming.github.io/atom.xml" rel="self"/>
   <link href="http://halfming.github.io/"/>
-  <updated>2014-04-22T13:01:45+08:00</updated>
+  <updated>2014-04-23T01:15:03+08:00</updated>
   <id>http://halfming.github.io/</id>
   <author>
     <name><![CDATA[halfming]]></name>
@@ -37,7 +37,8 @@ git config --global user.name "Your Name"
 <p>还需要上传你的公钥
 前提是你要懂一些git</p>
 
-<p>当然还没完 执行rake deploy会建立_deploy的目录，这个目录会和你的github同步</p>
+<p>当然还没完 执行rake deploy会建立_deploy的目录，这个目录会和你的github同步
+这样安装完以后更新博客 rake deploy 就可以了</p>
 
 <h2>code高亮</h2>
 

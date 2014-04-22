@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Web | 在路上]]></title>
   <link href="http://halfming.github.io/blog/categories/web/atom.xml" rel="self"/>
   <link href="http://halfming.github.io/"/>
-  <updated>2014-04-22T13:16:03+08:00</updated>
+  <updated>2014-04-23T01:15:03+08:00</updated>
   <id>http://halfming.github.io/</id>
   <author>
     <name><![CDATA[halfming]]></name>
@@ -37,7 +37,8 @@ git config --global user.name "Your Name"
 <p>还需要上传你的公钥
 前提是你要懂一些git</p>
 
-<p>当然还没完 执行rake deploy会建立_deploy的目录，这个目录会和你的github同步</p>
+<p>当然还没完 执行rake deploy会建立_deploy的目录，这个目录会和你的github同步
+这样安装完以后更新博客 rake deploy 就可以了</p>
 
 <h2>code高亮</h2>
 
@@ -81,31 +82,6 @@ class Fixnum
     end
 end
 ```
-</code></pre>
-
-<p>插入视频mp4</p>
-
-<pre><code>{% video url/to/video [width height] [url/to/poster] %}
-</code></pre>
-
-<p>图片</p>
-
-<pre><code>{% img [class names] /path/to/image [width] [height] [title text [alt text]] %}
-</code></pre>
-
-<p>examples</p>
-
-<pre><code>{% img http://placekitten.com/890/280 %}
-{% img left http://placekitten.com/320/250 Place Kitten #2 %}
-{% img right http://placekitten.com/300/500 150 250 Place Kitten #3 %}
-{% img right http://placekitten.com/300/500 150 250 'Place Kitten #4' 'An image of a very cute kitten' %}
-</code></pre>
-
-<p>引用</p>
-
-<pre><code>{% blockquote [author[, source]] [link] [source_link_title] %}
-Quote string
-{% endblockquote %}
 </code></pre>
 ]]></content>
   </entry>
