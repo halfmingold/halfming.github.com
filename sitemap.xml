@@ -1,39 +1,51 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://halfming.github.io/blog/2014/04/22/octopress/</loc>
-        <lastmod>2014-04-22T11:24:59+08:00</lastmod>
+        <loc>http://www.mada0.com/blog/2014/04/22/octopress/</loc>
+        <lastmod>2014-05-02T19:24:14+08:00</lastmod>
     </url>
     <url>
-        <loc>http://halfming.github.io/blog/2014/04/22/octopress-advance/</loc>
-        <lastmod>2014-04-23T00:39:33+08:00</lastmod>
+        <loc>http://www.mada0.com/blog/2014/04/22/octopress-advance/</loc>
+        <lastmod>2014-05-02T19:24:14+08:00</lastmod>
     </url>
     <url>
-        <loc>http://halfming.github.io/robots.txt</loc>
-        <lastmod>2014-04-22T10:11:20+08:00</lastmod>
+        <loc>http://www.mada0.com/robots.txt</loc>
+        <lastmod>2014-05-02T19:24:14+08:00</lastmod>
     </url>
     <url>
-        <loc>http://halfming.github.io/neetwork/</loc>
-        <lastmod>2014-04-22T10:50:49+08:00</lastmod>
+        <loc>http://www.mada0.com/neetwork/</loc>
+        <lastmod>2014-05-02T19:24:14+08:00</lastmod>
     </url>
     <url>
-        <loc>http://halfming.github.io/neetwork/basics/</loc>
-        <lastmod>2014-04-22T10:51:41+08:00</lastmod>
+        <loc>http://www.mada0.com/neetwork/basics/</loc>
+        <lastmod>2014-05-02T19:24:14+08:00</lastmod>
     </url>
     <url>
-        <loc>http://halfming.github.io/neetwork/basics.html</loc>
-        <lastmod>2014-04-22T10:52:02+08:00</lastmod>
+        <loc>http://www.mada0.com/neetwork/basics.html</loc>
+        <lastmod>2014-05-02T19:24:14+08:00</lastmod>
     </url>
     <url>
-        <loc>http://halfming.github.io/blog/archives/</loc>
-        <lastmod>2014-04-23T00:39:33+08:00</lastmod>
+        <loc>http://www.mada0.com/blog/archives/</loc>
+        <lastmod>2014-05-02T19:24:14+08:00</lastmod>
     </url>
     <url>
-        <loc>http://halfming.github.io/resume/</loc>
-        <lastmod>2014-04-23T01:15:02+08:00</lastmod>
+        <loc>http://www.mada0.com/blog/</loc>
+        <lastmod>2014-05-02T19:24:14+08:00</lastmod>
     </url>
     <url>
-        <loc>http://halfming.github.io/</loc>
-        <lastmod>2014-04-23T00:39:33+08:00</lastmod>
+        <loc>http://www.mada0.com/archives/</loc>
+        <lastmod>2014-05-02T19:24:14+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.mada0.com/about/</loc>
+        <lastmod>2014-05-02T19:24:14+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.mada0.com/resume/</loc>
+        <lastmod>2014-05-02T19:24:14+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.mada0.com/</loc>
+        <lastmod>2014-05-02T19:24:14+08:00</lastmod>
     </url>
 </urlset>

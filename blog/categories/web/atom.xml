@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Web | 在路上]]></title>
-  <link href="http://halfming.github.io/blog/categories/web/atom.xml" rel="self"/>
-  <link href="http://halfming.github.io/"/>
-  <updated>2014-04-23T01:24:23+08:00</updated>
-  <id>http://halfming.github.io/</id>
+  <title><![CDATA[Category: web | 编码器42号]]></title>
+  <link href="http://www.mada0.com/blog/categories/web/atom.xml" rel="self"/>
+  <link href="http://www.mada0.com/"/>
+  <updated>2014-05-04T23:49:32+08:00</updated>
+  <id>http://www.mada0.com/</id>
   <author>
     <name><![CDATA[halfming]]></name>
     
@@ -14,10 +14,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Octopress-advance]]></title>
-    <link href="http://halfming.github.io/blog/2014/04/22/octopress-advance/"/>
+    <title type="html"><![CDATA[octopress-advance]]></title>
+    <link href="http://www.mada0.com/blog/2014/04/22/octopress-advance/"/>
     <updated>2014-04-22T12:50:28+08:00</updated>
-    <id>http://halfming.github.io/blog/2014/04/22/octopress-advance</id>
+    <id>http://www.mada0.com/blog/2014/04/22/octopress-advance</id>
     <content type="html"><![CDATA[<h1>octopress进阶</h1>
 
 <h2>在github上用octopress建立博客</h2>
@@ -87,10 +87,10 @@ end
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Octopress]]></title>
-    <link href="http://halfming.github.io/blog/2014/04/22/octopress/"/>
+    <title type="html"><![CDATA[octopress]]></title>
+    <link href="http://www.mada0.com/blog/2014/04/22/octopress/"/>
     <updated>2014-04-22T10:43:49+08:00</updated>
-    <id>http://halfming.github.io/blog/2014/04/22/octopress</id>
+    <id>http://www.mada0.com/blog/2014/04/22/octopress</id>
     <content type="html"><![CDATA[<h1>静态博客系统octopress</h1>
 
 <p>octoppress基于jekyll官网 &lt;octtoppress.org></p>
