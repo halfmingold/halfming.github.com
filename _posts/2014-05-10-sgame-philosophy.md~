@@ -1,0 +1,8 @@
+---
+layout: post
+title: "sGame philosophy"
+description: ""
+category: 
+tags: []
+---
+{% include JB/setup %}
